@@ -1,0 +1,83 @@
+body {
+  background-image: url("");
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.app-header {
+  border-bottom: 1px solid #ccc;
+  padding: 6.8em 0.8em;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #000000b9; */
+  background-image: url("https://wallpapers.com/images/hd/museum-background-1dlkmof8lh8rje8i.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  /* background-attachment:fixed */
+}
+
+.name-app {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #202020;
+  text-transform: uppercase;
+  word-spacing: 0.1px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-left: 36%;
+  font-family: Courier, monospace;
+}
+
+
+.app-navigation ul,
+.nav li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: flex;
+  margin: 1.2em 1em 1.2em 3em;
+}
+
+.Search-bar {
+  background-color: rgba(255, 255, 255, 0.799);
+  text-align: center;
+  border-radius: 6px;
+}
+
+.btn-search {
+  border-radius: 5px;
+
+}
+
+.btn-search:hover {
+  background-color: transparent;
+  color: white;
+
+}
+
+.new-gallery {
+  font-size: 15px;
+  padding-left: -10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 60px;
+}
+
+.btn-add:hover {
+  background-color: rgb(124, 110, 52)(128, 128, 128, 0.461);
+  border-radius: 3px;
+}
+
+.new-gallery:hover {
+  background-color: transparent;
+  color: white;
+}

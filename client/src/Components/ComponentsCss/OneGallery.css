@@ -1,0 +1,189 @@
+html {
+  background-image: linear-gradient(#fffdfd, #f0f0f0);
+  height: 100%;
+}
+
+.painting-Oneimg {
+  border: solid 2px;
+  border-bottom-color: #ffe;
+  border-left-color: #eed;
+  border-right-color: #eed;
+  border-top-color: #ccb;
+  max-height: 50%;
+  max-width: 50%;
+
+}
+
+.frameone {
+  background-color: #ddc;
+  border: solid 5vmin #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10vh 10vw;
+  height: 80vh;
+  padding: 8vmin;
+  position: relative;
+  text-align: center;
+
+  &:before {
+    border-radius: 2px;
+    bottom: -2vmin;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25) inset;
+    content: "";
+    left: -2vmin;
+    position: absolute;
+    right: -2vmin;
+    top: -2vmin;
+  }
+
+  &:after {
+    border-radius: 2px;
+    bottom: -2.5vmin;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25);
+    content: "";
+    left: -2.5vmin;
+    position: absolute;
+    right: -2.5vmin;
+    top: -2.5vmin;
+  }
+}
+
+.nameOfPaint {
+  text-align: center;
+  color: rgba(37, 36, 36, 0.613)
+}
+
+.nameOfPaint:before {
+  left: 50%;
+  margin-left: -30px;
+}
+
+.First_Img {
+  text-align: center;
+}
+
+.Second-img {
+  text-align: center;
+}
+
+.newDescription {
+  width: 50%;
+  height: 100px;
+  font-size: 12px;
+  padding: 5px;
+  margin-top: 2px;
+  resize: none;
+  border-radius: 4px;
+}
+
+.description-box {
+  text-align: center;
+}
+
+.desc-paint {
+  font-family: 'georgia';
+  text-align: center;
+  font-weight: bold;
+  cursor:pointer  ;
+}
+
+.date-paint {
+  text-align: center;
+  font-size: larger;
+  font-family: Cursive;
+  color: rgb(144, 79, 204);
+
+}
+
+.museum-paint {
+  text-align: center;
+  padding-top: 20px;
+  font-size: x-large;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.Mesuem-location {
+  text-align: center;
+  padding-top: 30px;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.painting-nameOne {
+  font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.711);
+  padding-bottom: 25px;
+}
+
+.Painter-name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.artist-nameOne {
+  text-align: center;
+  padding-top: 20px;
+  font-size: larger;
+  letter-spacing: 3px;
+  font-family: Cursive;
+
+}
+
+.btn-delete {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  /* display: inline-block; */
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 20px;
+  ;
+  outline: 0;
+  padding: 12px 14px;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-left: 92%;
+}
+
+.btn-delete:hover,
+.btn-delete:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.btn-delete:active {
+  opacity: .5;
+}
+
+.btn-done-newDescription {
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-done-newDescription:hover {
+  background-color: gray;
+  scale: 1;
+
+}
